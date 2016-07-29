@@ -32,6 +32,10 @@ brew install \
 brew install --HEAD tmux
 
 # Make fish the default shell
+if ! grep fish /etc/shells; then
+	sudo -s 'echo /usr/local/bin/fish >> /etc/shells'
+	chsh -s /usr/local/bin/fish
+fi
 
 # Clone dotfiles
 [ -d ~/.files ] ||  git clone https://github.com/spinningarrow/.files ~/.files
