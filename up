@@ -38,12 +38,9 @@ if ! grep fish /etc/shells; then
 fi
 
 # Clone dotfiles
-[ -d ~/.files ] ||  git clone https://github.com/spinningarrow/.files ~/.files
+[ -d ~/.files ] || git clone https://github.com/spinningarrow/.files ~/.files
 
 # Install dotfiles
 pushd ~/.files
-stow fish
-stow git
-stow tmux
-stow vim
+ls -d */ | xargs stow
 popd
