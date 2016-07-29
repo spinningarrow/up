@@ -1,4 +1,3 @@
-# up.sh
+# up
 
-Get a new OS X system up and running with some basic command line tools and
-configs.
+Get a new Mac up and running.
