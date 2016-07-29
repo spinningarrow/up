@@ -19,16 +19,16 @@ brew doctor || exit $?
 
 # Install tools
 brew install \
- axel \
- diff-so-fancy \
- fish \
- git \
- node \
- python \
- reattach-to-user-namespace \
- ruby \
- stow \
- vim
+	axel \
+	diff-so-fancy \
+	fish \
+	git \
+	node \
+	python \
+	reattach-to-user-namespace \
+	ruby \
+	stow \
+	vim
 brew install --HEAD tmux
 
 # Make fish the default shell
@@ -57,5 +57,5 @@ brew cask install \
 	mplayerx \
 	spectacle \
 	sublime-text \
-	telegram-desktop \
+	telegram \
 	transmission
