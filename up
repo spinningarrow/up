@@ -44,3 +44,6 @@ fi
 pushd ~/.files
 ls -d */ | xargs stow
 popd
+
+# Create ~/bin
+[ -d ~/bin ] || mkdir ~/bin
