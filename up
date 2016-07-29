@@ -19,11 +19,13 @@ brew doctor || exit $?
 
 # Install tools
 brew install \
- autojump \
+ axel \
+ diff-so-fancy \
  fish \
  git \
  node \
  python \
+ reattach-to-user-namespace \
  ruby \
  stow \
  vim
