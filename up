@@ -47,3 +47,15 @@ popd
 
 # Create ~/bin
 [ -d ~/bin ] || mkdir ~/bin
+
+# Install GUI apps
+brew cask install \
+	atom \
+	dropbox \
+	franz \
+	google-chrome \
+	mplayerx \
+	spectacle \
+	sublime-text \
+	telegram-desktop \
+	transmission
