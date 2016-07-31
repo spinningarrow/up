@@ -4,7 +4,7 @@ Get a new Mac up and running.
 
 ## Usage
 
-Run `./up`. Multiple runs are fine; side-effects occur only the first time.
+Run `./up`.
 
 ## Checklist (for manual changes)
 
