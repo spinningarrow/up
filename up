@@ -54,6 +54,7 @@ brew cask install \
 	dropbox \
 	franz \
 	google-chrome \
+	iterm2 \
 	mplayerx \
 	spectacle \
 	sublime-text \
