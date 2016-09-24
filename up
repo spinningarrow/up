@@ -1,11 +1,5 @@
 #!/bin/bash
 
-# Install Java
-if ! /usr/libexec/java_home ; then
-	javac
-	exit 0
-fi
-
 # Install Xcode Command-Line Tools
 if ! xcode-select -p ; then
 	xcode-select --install
@@ -55,6 +49,7 @@ brew cask install \
 	franz \
 	google-chrome \
 	iterm2 \
+	java \
 	mplayerx \
 	spectacle \
 	sublime-text \
