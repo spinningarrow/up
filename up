@@ -17,7 +17,6 @@ brew install \
 	diff-so-fancy \
 	fish \
 	git \
-	node \
 	python \
 	reattach-to-user-namespace \
 	ruby \
