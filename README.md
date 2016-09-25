@@ -14,3 +14,5 @@ Run `./up`.
 - [ ] Battery percentage in menu bar
 - [ ] Volume control in the menu bar
 - [ ] Keyboard shortcut for `Invert Colors`
+- [ ] Remap <kbd>Caps Lock</kbd> to <kbd>Ctrl</kbd>
+- [ ] Verify trackpad settings
