@@ -17,3 +17,4 @@ Run `./up`.
 - [ ] Keyboard: Remap <kbd>Caps Lock</kbd> to <kbd>Ctrl</kbd>
 - [ ] Trackpad: Three-finger drag
 - [ ] Trackpad: Verify settings
+- [ ] Chrome: Warn before quitting
