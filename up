@@ -57,3 +57,18 @@ brew cask install \
 	telegram \
 	texts \
 	transmission
+
+# Install fonts
+brew tap caskroom/fonts
+brew cask install
+	font-fira-mono \
+	font-inconsolata \
+	font-input \
+	font-lato \
+	font-league-gothic \
+	font-lobster \
+	font-m-plus \
+	font-raleway \
+	font-source-code-pro \
+	font-source-sans-pro \
+	font-source-serif-pro
