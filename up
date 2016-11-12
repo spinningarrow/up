@@ -21,7 +21,7 @@ brew install \
 	reattach-to-user-namespace \
 	ruby \
 	stow \
-	vim
+	vim --with-lua --with-override-system-vi
 brew install --HEAD tmux
 
 # Make fish the default shell
