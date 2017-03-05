@@ -47,6 +47,7 @@ brew cask install \
 	dropbox \
 	firefox \
 	google-chrome \
+	hammerspoon \
 	iterm2 \
 	java \
 	mplayerx \
