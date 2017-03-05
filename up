@@ -45,20 +45,18 @@ popd
 
 # Install GUI apps
 brew cask install \
-	atom \
 	dropbox \
 	firefox \
-	franz \
 	google-chrome \
 	iterm2 \
 	java \
 	mplayerx \
 	shady \
-	spectacle \
+	slack \
 	sublime-text \
 	telegram \
-	texts \
-	transmission
+	transmission \
+	whatsapp
 
 # Install fonts
 brew tap caskroom/fonts
