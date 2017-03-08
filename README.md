@@ -11,10 +11,10 @@ Run `./up`.
 - [ ] Battery percentage in menu bar
 - [ ] Volume control in the menu bar
 - [ ] Keyboard: Key repeat and delay rate
-- [ ] Keyboard: Ctrl+scroll gesture for zooming
 - [ ] Keyboard: Full Keyboard Access for all controls
-- [ ] Keyboard: Shortcut for `Invert Colors`
 - [ ] Keyboard: Remap <kbd>Caps Lock</kbd> to <kbd>Ctrl</kbd>
+- [ ] Keyboard: Shortcut for `Invert Colors`
+- [ ] Keyboard: Ctrl+scroll gesture for zooming
 - [ ] Trackpad: Three-finger drag
 - [ ] Trackpad: Verify settings
 - [ ] Chrome: Warn before quitting
