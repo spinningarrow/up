@@ -18,3 +18,4 @@ Run `./up`.
 - [ ] Trackpad: Three-finger drag
 - [ ] Trackpad: Verify settings
 - [ ] Chrome: Warn before quitting
+- [ ] Calendar: Set up accounts
