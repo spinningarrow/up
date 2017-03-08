@@ -1,0 +1,10 @@
+#!/bin/bash
+
+./up
+
+brew install gradle
+
+brew cask install \
+	fluor \
+	intellij-idea \
+	postman

@@ -6,6 +6,8 @@ Get a new Mac up and running.
 
 Run `./up`.
 
+For work computers, run `./up.work` (it runs `up` and then some more commands)
+
 ## Checklist for manual changes
 
 - [ ] Battery percentage in menu bar
