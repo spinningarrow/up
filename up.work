@@ -6,6 +6,7 @@ brew install gradle
 
 brew cask install \
 	dash \
+	docker \
 	fluor \
 	intellij-idea \
 	postman
