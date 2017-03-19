@@ -23,6 +23,7 @@ brew install \
 	ruby \
 	stow \
 	tmux \
+	tree \
 	vim --with-lua --with-override-system-vi
 
 # Make fish the default shell
