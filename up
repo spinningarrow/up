@@ -12,19 +12,7 @@ which brew || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/H
 brew doctor || exit $?
 
 # Install tools
-brew install \
-	axel \
-	fish \
-	git \
-	jq \
-	node \
-	python \
-	reattach-to-user-namespace \
-	ruby \
-	stow \
-	tmux \
-	tree \
-	vim --with-lua --with-override-system-vi
+brew bundle
 
 # Make fish the default shell
 if ! grep fish /etc/shells; then
@@ -32,44 +20,12 @@ if ! grep fish /etc/shells; then
 	chsh -s /usr/local/bin/fish
 fi
 
-# Clone dotfiles
+# Install dotfiles
 [ -d ~/.files ] || git clone https://github.com/spinningarrow/.files ~/.files
 
-# Install dotfiles
 pushd ~/.files
 ls -d */ | xargs stow
 popd
 
-# Create ~/bin
+# For custom scripts to be availabe in $PATH
 [ -d ~/bin ] || mkdir ~/bin
-
-# Install GUI apps
-brew cask install \
-	dropbox \
-	firefox \
-	google-chrome \
-	hammerspoon \
-	iterm2 \
-	java \
-	mplayerx \
-	shady \
-	slack \
-	sublime-text \
-	telegram \
-	transmission \
-	whatsapp
-
-# Install fonts
-brew tap caskroom/fonts
-brew cask install
-	font-fira-mono \
-	font-inconsolata \
-	font-input \
-	font-lato \
-	font-league-gothic \
-	font-lobster \
-	font-m-plus \
-	font-raleway \
-	font-source-code-pro \
-	font-source-sans-pro \
-	font-source-serif-pro
