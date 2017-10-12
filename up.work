@@ -2,11 +2,4 @@
 
 ./up
 
-brew install gradle
-
-brew cask install \
-	dash \
-	docker \
-	fluor \
-	intellij-idea \
-	postman
+brew bundle --file=Brewfile.work
