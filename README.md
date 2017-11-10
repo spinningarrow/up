@@ -10,14 +10,15 @@ For work computers, run `./up.work` (it runs `up` and then some more commands)
 
 ## Checklist for manual changes
 
-- [ ] Battery percentage in menu bar
-- [ ] Volume control in the menu bar
+- [ ] Sharing: Computer name
+- [ ] Menu Bar: Battery percentage
+- [ ] Sound: Volume control in the menu bar
 - [ ] Keyboard: Key repeat and delay rate
 - [ ] Keyboard: Full Keyboard Access for all controls
 - [ ] Keyboard: Remap <kbd>Caps Lock</kbd> to <kbd>Ctrl</kbd>
 - [ ] Keyboard: Shortcut for `Invert Colors`
 - [ ] Keyboard: Ctrl+scroll gesture for zooming
+- [ ] Trackpad: Check all settings
 - [ ] Trackpad: Three-finger drag
-- [ ] Trackpad: Verify settings
 - [ ] Chrome: Warn before quitting
 - [ ] Calendar: Set up accounts
