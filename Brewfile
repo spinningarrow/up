@@ -1,13 +1,9 @@
 # vim: ft=ruby
 
-brew 'axel'
 brew 'fish'
 brew 'git'
-brew 'jq'
 brew 'node'
-brew 'python'
 brew 'reattach-to-user-namespace'
-brew 'ruby'
 brew 'stow'
 brew 'tmux'
 brew 'tree'
