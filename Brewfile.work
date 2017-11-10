@@ -1,8 +1,5 @@
 # vim: ft=ruby
 
-brew 'gradle'
-
-cask 'dash'
 cask 'docker'
 cask 'fluor'
 cask 'intellij-idea'
