@@ -3,7 +3,6 @@
 brew 'direnv'
 brew 'fish'
 brew 'git'
-brew 'node'
 brew 'stow'
 brew 'tmux'
 brew 'tree'
