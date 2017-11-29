@@ -1,5 +1,6 @@
 # vim: ft=ruby
 
+brew 'direnv'
 brew 'fish'
 brew 'git'
 brew 'node'
