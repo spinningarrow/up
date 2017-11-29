@@ -23,8 +23,7 @@ fi
 # Install dotfiles
 [ -d ~/.files ] || git clone https://github.com/spinningarrow/.files ~/.files
 
-# Create fish config directories to prevent controlling the whole of .config
-# with stow
+# Create fish config directories to prevent stow from taking over .config
 mkdir -p ~/.config/fish/functions
 
 # Install dotfiles
