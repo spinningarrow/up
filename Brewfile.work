@@ -1,5 +1,4 @@
 # vim: ft=ruby
 
-cask 'docker'
 cask 'fluor'
 cask 'intellij-idea'
