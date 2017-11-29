@@ -3,7 +3,6 @@
 brew 'fish'
 brew 'git'
 brew 'node'
-brew 'reattach-to-user-namespace'
 brew 'stow'
 brew 'tmux'
 brew 'tree'
