@@ -22,3 +22,6 @@ For work computers, run `./up.work` (it runs `up` and then some more commands)
 - [ ] Trackpad: Three-finger drag
 - [ ] Chrome: Warn before quitting
 - [ ] Calendar: Set up accounts
+- [ ] Finder: show file extensions
+- [ ] Finder: change default folder
+- [ ] Finder: change default search scope
