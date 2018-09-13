@@ -2,6 +2,7 @@
 
 brew 'axel'
 brew 'direnv'
+brew 'ffmpeg'
 brew 'fish'
 brew 'git'
 brew 'stow'

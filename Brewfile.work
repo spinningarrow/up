@@ -1,4 +1,4 @@
 # vim: ft=ruby
 
-cask 'fluor'
 cask 'intellij-idea'
+cask 'zoomus'
