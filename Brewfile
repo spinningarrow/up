@@ -9,4 +9,4 @@ brew 'stow'
 brew 'terminal-notifier'
 brew 'tmux'
 brew 'tree'
-brew 'vim', args: ['with-lua', 'with-override-system-vi']
+brew 'vim'
