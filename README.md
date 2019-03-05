@@ -13,6 +13,7 @@ For work computers, run `./up.work` (it runs `up` and then some more commands)
 - [ ] Sharing: Computer name
 - [ ] Menu Bar: Battery percentage
 - [ ] Sound: Volume control in the menu bar
+- [ ] Bluetooth: Show in menu bar
 - [ ] Keyboard: Key repeat and delay rate
 - [ ] Keyboard: Full Keyboard Access for all controls
 - [ ] Keyboard: Remap <kbd>Caps Lock</kbd> to <kbd>Ctrl</kbd>
