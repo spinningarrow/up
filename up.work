@@ -2,4 +2,4 @@
 
 ./up
 
-brew bundle --file=Brewfile.work
+brew bundle -v --file=Brewfile.work

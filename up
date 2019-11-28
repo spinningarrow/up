@@ -12,7 +12,7 @@ which brew || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/H
 brew doctor || exit $?
 
 # Install command line tools
-brew bundle
+brew bundle -v
 
 # Make fish the default shell
 if ! grep fish /etc/shells; then
@@ -36,4 +36,4 @@ popd
 [ -d ~/bin ] || mkdir ~/bin
 
 # Install GUI tools and fonts
-brew bundle --file=Brewfile.casks
+brew bundle -v --file=Brewfile.casks
