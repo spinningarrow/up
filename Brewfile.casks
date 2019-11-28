@@ -14,7 +14,7 @@ cask 'telegram'
 cask 'vlc'
 cask 'whatsapp'
 
-tap 'caskroom/fonts'
+tap 'homebrew/cask-fonts'
 cask 'font-fira-mono'
 cask 'font-inconsolata'
 cask 'font-input'
