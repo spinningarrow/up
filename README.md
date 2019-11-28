@@ -19,6 +19,7 @@ For work computers, run `./up.work` (it runs `up` and then some more commands)
 - [ ] Keyboard: Remap <kbd>Caps Lock</kbd> to <kbd>Ctrl</kbd>
 - [ ] Keyboard: Shortcut for `Invert Colors`
 - [ ] Keyboard: Ctrl+scroll gesture for zooming
+- [ ] Keyboard: Unmap <kbd>Cmd + Shift + A</kbd> man page shortcut
 - [ ] Trackpad: Check all settings
 - [ ] Trackpad: Three-finger drag
 - [ ] Chrome: Warn before quitting
