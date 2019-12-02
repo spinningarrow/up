@@ -27,3 +27,10 @@ For work computers, run `./up.work` (it runs `up` and then some more commands)
 - [ ] Finder: show file extensions
 - [ ] Finder: change default folder
 - [ ] Finder: change default search scope
+
+## Checklist for work setup
+
+- [ ] Setup MDM
+- [ ] Install Hangouts Chat PWA
+- [ ] Sync Google Drive Backups
+- [ ] Setup IntelliJ license
