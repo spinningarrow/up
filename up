@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Open terminal with theme so it can be set as default
+terminalProfile=$(osascript -e 'tell application "Terminal" to get name of default settings')
+test "$terminalProfile" = "Tomorrow Night Bright" || open ./Tomorrow\ Night\ Bright.terminal
+
 # Install Xcode Command-Line Tools
 if ! xcode-select -p ; then
 	xcode-select --install
