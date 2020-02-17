@@ -19,7 +19,7 @@ if ! grep fish /etc/shells; then
 	echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
 fi
 
-chsh -s /usr/local/bin/fish
+finger $USER | grep fish || chsh -s /usr/local/bin/fish
 
 # Install dotfiles
 [ -d ~/.files ] || git clone https://github.com/spinningarrow/.files ~/.files
