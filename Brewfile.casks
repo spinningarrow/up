@@ -8,7 +8,6 @@ cask 'google-chrome'
 cask 'hammerspoon'
 cask 'java'
 cask 'karabiner-elements'
-cask 'qlmarkdown'
 
 tap 'homebrew/cask-fonts'
 cask 'font-fira-mono'
