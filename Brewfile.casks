@@ -7,7 +7,6 @@ cask 'google-backup-and-sync'
 cask 'google-chrome'
 cask 'hammerspoon'
 cask 'java'
-cask 'karabiner-elements'
 
 tap 'homebrew/cask-fonts'
 cask 'font-fira-mono'
