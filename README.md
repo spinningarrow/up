@@ -17,13 +17,10 @@ For work computers, run `./up.work` (it runs `up` and then some more commands)
 - [ ] Keyboard: Key repeat and delay rate
 - [ ] Keyboard: Full Keyboard Access for all controls
 - [ ] Keyboard: Remap <kbd>Caps Lock</kbd> to <kbd>Ctrl</kbd>
-- [ ] Keyboard: Shortcut for `Invert Colors`
 - [ ] Keyboard: Ctrl+scroll gesture for zooming
 - [ ] Keyboard: Unmap <kbd>Cmd + Shift + A</kbd> man page shortcut
 - [ ] Trackpad: Check all settings
 - [ ] Trackpad: Three-finger drag
-- [ ] Chrome: Warn before quitting
-- [ ] Calendar: Set up accounts
 - [ ] Finder: show file extensions
 - [ ] Finder: change default folder
 - [ ] Finder: change default search scope
@@ -31,6 +28,5 @@ For work computers, run `./up.work` (it runs `up` and then some more commands)
 ## Checklist for work setup
 
 - [ ] Setup MDM
-- [ ] Install Hangouts Chat PWA
 - [ ] Sync Google Drive Backups
-- [ ] Setup IntelliJ license
+- [ ] Setup IntelliJ license and settings
