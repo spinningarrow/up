@@ -31,13 +31,13 @@ finger $USER | grep fish || chsh -s /usr/local/bin/fish
 # Create fish config directories to prevent stow from taking over .config
 mkdir -p ~/.config/fish/functions
 
+# For custom scripts to be availabe in $PATH
+[ -d ~/bin ] || mkdir ~/bin
+
 # Install dotfiles
 pushd ~/.files
 ls -d */ | xargs stow
 popd
-
-# For custom scripts to be availabe in $PATH
-[ -d ~/bin ] || mkdir ~/bin
 
 # Install GUI tools and fonts
 brew bundle -v --file=Brewfile.casks
