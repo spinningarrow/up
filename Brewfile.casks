@@ -3,10 +3,10 @@
 cask 'docker'
 cask 'dropbox'
 cask 'firefox'
-cask 'google-backup-and-sync'
 cask 'google-chrome'
 cask 'hammerspoon'
 cask 'java'
+cask 'telegram'
 
 tap 'homebrew/cask-fonts'
 cask 'font-fira-mono'
