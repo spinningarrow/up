@@ -1,9 +1,9 @@
-# vim: ft=ruby
-
 brew 'direnv'
 brew 'fish'
 brew 'fzf'
 brew 'git'
+brew 'git-gui'
+brew 'gopass'
 brew 'stow'
 brew 'tmux'
 brew 'tree'
